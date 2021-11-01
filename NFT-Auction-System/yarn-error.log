@@ -1,0 +1,69 @@
+Arguments: 
+  E:\Node\node.exe C:\Users\HM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add antd
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;E:\虚拟机\MW Player\bin\;C:;Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\sql\共享功能目录\110\DTS\Binn\;E:\sq;\共享功能目录x86\110\Tools\Binn\;E:\sq;\共享功能目录\110\Tools\Binn\;E:\sq;\共享功能目录x86\110\Tools\Binn\ManagementStudio\;C:\Pr;gram Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;E:\sql\共享功能目录x86\110\DTS\Binn\;%Syst;mRoot%\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Gpg4win\..\GnuPG\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\mysql\bin;E:\5.9\mingw53_32\bin;C:\ProgramFiles\Java\jdk-16.0.1\bin;C:\ProgramFiles\Java\jdk-16.0.1\jre\bin;C:\Program Files\dotnet\;E:\sql\共享功能目录\130\Tools\Binn\;E:\sq;\共享功能目录\Client SDK\ODBC\170\Tools\Binn\;E:\Mi;gw\mingw64\bin;C:\ProgramData\chocolatey\bin;E:\Node\;E:\Git\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HM\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;E:\Mingw\mingw64\bin;E:\mysql\bin;C:\Users\HM\.dotnet\tools;E:\Program Files\JetBrains\DataGrip 2021.1.1\bin;;C:\Users\HM\AppData\Local\Pandoc\;C:\Users\HM\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 20.205.243.166:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "name": "eth-marketplace",
+    "version": "0.1.0",
+    "description": "An Ethereum Marketplace",
+    "author": "sachinmatta08@gmail.co,",
+    "dependencies": {
+      "@openzeppelin/contracts": "^3.4.2",
+      "@truffle/hdwallet-provider": "^1.5.1",
+      "babel-polyfill": "6.26.0",
+      "babel-preset-env": "1.7.0",
+      "babel-preset-es2015": "6.24.1",
+      "babel-preset-stage-2": "6.24.1",
+      "babel-preset-stage-3": "6.24.1",
+      "babel-register": "6.26.0",
+      "bluzelle": "^2.1.5",
+      "bootstrap": "4.3.1",
+      "chai": "4.2.0",
+      "chai-as-promised": "7.1.1",
+      "chai-bignumber": "3.0.0",
+      "ipfs-http-client": "^33.1.1",
+      "react": "16.8.4",
+      "react-bootstrap": "1.0.0-beta.5",
+      "react-dom": "16.8.4",
+      "react-scripts": "^4.0.3",
+      "truffle": "^5.4.16",
+      "web3": "^1.6.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
